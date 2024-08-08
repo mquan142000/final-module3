@@ -14,9 +14,9 @@
 
     <label for="trang_thai">Trạng thái:</label>
     <select id="trang_thai" name="trang_thai" required>
-        <option value="Trống">Trống</option>
-        <option value="Hạ tầng">Hạ tầng</option>
-        <option value="Đầy đủ">Đầy đủ</option>
+        <option value="Trong">Trống</option>
+        <option value="Ha Tang">Hạ tầng</option>
+        <option value="Day Du">Đầy đủ</option>
     </select><br><br>
 
     <label for="dien_tich">Diện tích (m²):</label>
@@ -27,8 +27,8 @@
 
     <label for="loai_mat_bang">Loại mặt bằng:</label>
     <select id="loai_mat_bang" name="loai_mat_bang" required>
-        <option value="Văn phòng chia sẻ">Văn phòng chia sẻ</option>
-        <option value="Văn phòng trọn gói">Văn phòng trọn gói</option>
+        <option value="Van phong chia se">Văn phòng chia sẻ</option>
+        <option value="Van phong tron goi">Văn phòng trọn gói</option>
     </select><br><br>
 
     <label for="gia_tien">Giá tiền (VNĐ):</label>
