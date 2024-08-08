@@ -15,9 +15,10 @@
 <body>
 <h1>Danh sách mặt bằng cho thuê</h1>
 
-<a href="add_office.jsp">Thêm mặt bằng mới</a>
+<a href="/offices?action=add">Thêm mặt bằng mới</a>
 
-<form action="offices?action=search" method="get">
+<form action="${pageContext.request.contextPath}/offices" method="get">
+    <input type="hidden" name="action" value="search"/>
     <%--@declare id="loai_mat_bang"--%><%--@declare id="gia_tien"--%><%--@declare id="tang"--%>
     <label for="loai_mat_bang">Loại mặt bằng:</label>
     <input type="text" name="loai_mat_bang" required>
